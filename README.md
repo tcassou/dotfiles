@@ -1,8 +1,8 @@
 # dotfiles
 Miscellaneous dot files for Ubuntu.
 
-## .bashrc
+### .bashrc
 
-## .bash_aliases
+### .bash_aliases
 
-## .git-prompt.sh
+### .git-prompt.sh
