@@ -1,0 +1,7 @@
+[user]
+	name = Thomas Cassou
+	email = thomas.cassou@booking.com
+[core]
+	editor = nano
+[tag]
+	sort = version:refname
