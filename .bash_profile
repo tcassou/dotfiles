@@ -1,3 +1,6 @@
+# Editor
+export EDITOR=nano
+
 # Setting prompt colors and adding current git branch to the display
 . /etc/profile
 source ~/.git-prompt.sh
@@ -34,3 +37,7 @@ fi
 # PHP-FPM
 export PATH="/usr/local/sbin:$PATH"
 PHP_AUTOCONF="/usr/local/bin/autoconf"
+
+# Python path for ipython-notebook
+export PYTHONPATH="$PM_ROOT/algo:$PYTHONPATH"
+
