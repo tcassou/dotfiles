@@ -42,3 +42,5 @@ fi
 
 export EDITOR=nano
 PATH="$PATH:.dropbox-dist"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

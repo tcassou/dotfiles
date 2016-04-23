@@ -41,3 +41,5 @@ PHP_AUTOCONF="/usr/local/bin/autoconf"
 # Python path for ipython-notebook
 export PYTHONPATH="$PM_ROOT/algo:$PYTHONPATH"
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
