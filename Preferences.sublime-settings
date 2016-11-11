@@ -1,4 +1,5 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
     "font_face": "Input Mono",
     "font_size": 13,
     "font_options":
@@ -25,24 +26,12 @@
 		".png",
 		".jpg",
 		".jpeg"
+		".DS_Store",
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/gems",
-		"/Users/tcassou/pricematch/admin/tmp/pids",
-		"/Users/tcassou/pricematch/admin/bin",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/specifications",
-		"/Users/tcassou/pricematch/admin/coverage",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/bin",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/doc",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/extensions",
-		"/Users/tcassou/pricematch/admin/.bundle",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/build_info",
-		"/Users/tcassou/pricematch/admin/tmp/sockets",
-		"/Users/tcassou/pricematch/admin/vendor/ruby/2.1.0/cache",
-		"/Users/tcassou/pricematch/admin/tmp/cache",
-		"/Users/tcassou/pricematch/admin/tmp/sessions"
+		".ipynb_checkpoints",
 	],
 
 	"ignored_packages":
