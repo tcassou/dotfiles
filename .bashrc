@@ -11,6 +11,11 @@ if [ -f /etc/bash_completion ]; then
 	. /etc/bash_completion
 fi
 
+# Git autocomplete
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # Setting prompt colors and adding current git branch to the display
 . /etc/profile
 source ~/.git-prompt.sh
@@ -39,6 +44,13 @@ fi
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# PHP-FPM
+export PATH="/usr/local/sbin:$PATH"
+PHP_AUTOCONF="/usr/local/bin/autoconf"
 
 export EDITOR=nano
 PATH="$PATH:.dropbox-dist"
