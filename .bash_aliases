@@ -11,3 +11,8 @@ alias ll='ls -lArth'
 alias la='ls -A'
 alias l='ls -CF'
 alias sc='screen bash -l'
+
+# Git aliases
+git config --global alias.tree log --graph --full-history --all --color --pretty=tformat:\"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m\"
+git config --global alias.tags "!git tag | tail -n5"
+git config --global alias.s status
