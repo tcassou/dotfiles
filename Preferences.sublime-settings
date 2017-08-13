@@ -25,7 +25,7 @@
 		"__init__.py",
 		".png",
 		".jpg",
-		".jpeg"
+		".jpeg",
 		".DS_Store",
 	],
 	"folder_exclude_patterns":
