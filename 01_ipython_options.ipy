@@ -1,0 +1,5 @@
+%load_ext autoreload
+%autoreload 2
+
+if get_ipython().config:
+    %matplotlib inline
