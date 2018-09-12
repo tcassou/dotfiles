@@ -1,8 +1,3 @@
-if [[ $- != *i* ]] ; then
-    # Shell is non-interactive.  Be done now!
-    return
-fi
-
 # Editor
 export EDITOR=nano
 
@@ -31,26 +26,21 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# Completion
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
-
 # Git autocomplete and settings
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 # PHP-FPM
 export PATH="/usr/local/sbin:$PATH"
 PHP_AUTOCONF="/usr/local/bin/autoconf"
 
-PATH="$PATH:.dropbox-dist"
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
+# RVM
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# pyenv
+eval "$(pyenv init -)"
+
+# Java
+export JAVA_HOME=/usr/libexec/java_home
