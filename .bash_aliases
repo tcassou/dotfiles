@@ -13,6 +13,7 @@ alias l='ls -CF'
 alias sc='screen bash -l'
 alias python='PYTHONDONTWRITEBYTECODE=1 python'
 alias nose='nosetests -v --rednose'
+alias latex='/Users/tcassou/bin/lualatex -synctex=1 -interaction=nonstopmode'
 
 _ssh()
 {
