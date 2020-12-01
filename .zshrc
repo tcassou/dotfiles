@@ -1,5 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+# Pyenv
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+if command -v pyenv 1>/dev/null 2>&1; then
+	eval "$(pyenv init -)" 
+fi
+
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/tcassou/.oh-my-zsh"
